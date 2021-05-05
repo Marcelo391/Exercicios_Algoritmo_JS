@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso Ideal</title>
+    <link rel="stylesheet" href="peso_ideal.css">
+</head>
+<body>
+    <div class="container">
+        <img src="balanca.jpg" class="imgBalanca" alt="Balança">
+        <div class="form">
+            <h1>Cálculo de Peso </h1>
+            <p> Nome: <input type="text" id="txtNome" /> </p>
+            <p> Sexo: 
+                <input type="radio" name="sexo" id="rbMasculino">Masculino
+                <input type="radio" name="sexo" id="rbFeminino">Feminino
+            </p>
+            <p> Altura: <input type="number" id="txtAltura"> </p>
+            <p> 
+                <input type="button" value="Calcular Peso" id="btnCalcular" /> 
+                <input type="button" value="Limpar Campos" id="btnLimpar" /> 
+            </p>
+
+            <p id="outResultado"></p>  
+        </div>        
+    </div>      
+    <script src="peso_ideal.js"></script>
+</body>
+</html>
